@@ -1,0 +1,7 @@
+name: ""
+navbar:
+  title: "NSD2i"
+  left:
+    - text: "Summary plots"
+      href: index.html
+output_dir: "docs"

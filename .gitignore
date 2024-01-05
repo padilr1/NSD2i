@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+work/
+ref/
+figs_not_pushed/
+data/

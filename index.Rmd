@@ -1,0 +1,73 @@
+---
+title: ""
+author: ""
+date: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    smooth_scroll: false
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(reshape2)
+library(tidyverse)
+library(reactable)
+library(data.table)
+```
+
+# NiceSeq {.tabset}
+
+## PCA {.tabset}
+
+### All peaks
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/PCA/NiceSeq/all_peaks", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Top 500 most variable peaks
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/PCA/NiceSeq/top_500", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## HM
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/HM/NiceSeq", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+# H3K36me2 {.tabset}
+
+## PCA
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/PCA/K36me2", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## HM
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/HM/K36me2", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+# H3K27me3 {.tabset}
+
+## PCA
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/PCA/K27me3", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## HM
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/HM/K27me3", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
