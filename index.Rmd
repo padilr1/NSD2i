@@ -113,3 +113,23 @@ include_graphics(imageList,dpi = 600)
 imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K27me3/Day_9", pattern= "*.jpeg", full.names=T)
 include_graphics(imageList,dpi = 600)
 ```
+
+## H3K9me3 {.tabset}
+
+### Day 1
+```{r,echo = FALSE,fig.show = "hold", out.width = "50%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K9me3/Day_1", pattern= "*.jpeg", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 5
+```{r,echo = FALSE,fig.show = "hold", out.width = "50%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K9me3/Day_5", pattern= "*.jpeg", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 9
+```{r,echo = FALSE,fig.show = "hold", out.width = "50%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K9me3/Day_9", pattern= "*.jpeg", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
