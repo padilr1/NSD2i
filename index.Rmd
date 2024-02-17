@@ -153,3 +153,17 @@ include_graphics(imageList,dpi = 600)
 imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/NSD2/Day_9", pattern= "*.jpeg", full.names=T)
 include_graphics(imageList,dpi = 600)
 ```
+
+# Genic/Intergenic Scatterplots {.tabset}
+
+## H3K36me2
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K36me2/genic_intergenic_shading_plots", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## H3K27me3
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K27me3/genic_intergenic_scatterplots", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
