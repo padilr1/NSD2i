@@ -167,3 +167,43 @@ include_graphics(imageList,dpi = 600)
 imageList <- list.files("~/Documents/NSD2i/pushed_figs/paired_comparisons/K27me3/genic_intergenic_scatterplots", pattern= "*.png", full.names=T)
 include_graphics(imageList,dpi = 600)
 ```
+
+# Volcano plot for PTM marks
+
+## K27me3
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/volcano_plot/K27me3", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+# Genes in blue bins {.tabset}
+
+## scatterplot
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/volcano_plot/genes_in_blue_bins/scatterplot", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## K27me3
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/volcano_plot/genes_in_blue_bins/K27me3", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## K36me2
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/volcano_plot/genes_in_blue_bins/K36me2", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## NSD2
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/volcano_plot/genes_in_blue_bins/NSD2", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## RNAseq
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/volcano_plot/genes_in_blue_bins/RNAseq", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
