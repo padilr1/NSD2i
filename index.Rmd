@@ -214,6 +214,12 @@ imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_i
 include_graphics(imageList,dpi = 600)
 ```
 
+## K9me3
+```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
+imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/genes_in_blue_bins/K9me3", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
 ## K4me1
 ```{r,echo = FALSE,fig.show = "hold", out.width = "100%", fig.align = "default"}
 imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/genes_in_blue_bins/K4me1", pattern= "*.png", full.names=T)
