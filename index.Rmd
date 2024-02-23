@@ -251,3 +251,65 @@ include_graphics(imageList,dpi = 600)
 imageList <- list.files("/Users/padilr1/Documents/NSD2i/pushed_figs/genes_with_increased_K27me3/genes_in_blue_bins/NSD2_norm_counts_at_baseline/wilcoxon", pattern= "*.png", full.names=T)
 include_graphics(imageList,dpi = 600)
 ```
+
+# IGR heatmaps {.tabset}
+
+## K36me2 {.tabset}
+
+### Day 1
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K36me2/D1", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 5
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K36me2/D5", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 9
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K36me2/D9", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## K27me3 {.tabset}
+
+### Day 1
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K27me3/D1", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 5
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K27me3/D5", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 9
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K27me3/D9", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## K9me3 {.tabset}
+
+### Day 1
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K9me3/D1", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 5
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K9me3/D5", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Day 9
+```{r,echo = FALSE,fig.show = "hold", out.width = "60%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K9me3/D9", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
