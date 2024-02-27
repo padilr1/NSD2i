@@ -313,3 +313,34 @@ include_graphics(imageList,dpi = 600)
 imageList <- list.files("~/Documents/NSD2i/pushed_figs/IGR_plots/K9me3/D9", pattern= "*.png", full.names=T)
 include_graphics(imageList,dpi = 600)
 ```
+
+# H3K36me2 & H3K27me3 log2FC {.tabset}
+
+## Day 5 {.tabset}
+
+### Genic/Intergenic
+```{r,echo = FALSE,fig.show = "hold", out.width = "70%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/log2FoldChanges_binned_analysis/Day_5/genic_igr", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Density
+```{r,echo = FALSE,fig.show = "hold", out.width = "70%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/log2FoldChanges_binned_analysis/Day_5/density", pattern= "*.jpeg", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+## Day 9 {.tabset}
+
+### Genic/Intergenic
+```{r,echo = FALSE,fig.show = "hold", out.width = "70%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/log2FoldChanges_binned_analysis/Day_9/genic_igr", pattern= "*.png", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
+### Density
+```{r,echo = FALSE,fig.show = "hold", out.width = "70%", fig.align = "default"}
+imageList <- list.files("~/Documents/NSD2i/pushed_figs/log2FoldChanges_binned_analysis/Day_9/density", pattern= "*.jpeg", full.names=T)
+include_graphics(imageList,dpi = 600)
+```
+
